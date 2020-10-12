@@ -32,7 +32,16 @@ h1, h2, h3 {
     padding: 0.2rem 1rem;
     background: rgba(lighten($primary-color, 2), 0.5);
   }
+  text-align: center;
 }
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:auto;
+  width: 50%;
+} 
 
 
 a {
@@ -76,6 +85,10 @@ main {
     }
   }
 
+  img {
+    width: 250px;
+    height: 250px;
+  }
 }
 
 // Menu Overlay
